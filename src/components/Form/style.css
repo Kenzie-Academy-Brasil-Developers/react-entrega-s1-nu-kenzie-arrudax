@@ -1,0 +1,90 @@
+.form__bg {
+  width: 363px;
+  height: 351px;
+
+  border: 1px solid var(--Grey-2);
+  border-radius: 4px;
+}
+label {
+  font-weight: 400;
+  font-size: 12px;
+}
+.form__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 20px;
+
+  margin: 38px 0 0 0;
+}
+.position__descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.form__ex {
+  color: var(--Grey-3);
+  margin-left: 5px;
+}
+.position__values {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.position__valor {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-right: 25px;
+
+  margin-bottom: 10px;
+}
+.form__valor {
+  margin-bottom: 10px;
+}
+.form__input--valor {
+  width: 128px;
+  height: 48px;
+}
+.form__input--valor::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+}
+.position__tipo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-bottom: 10px;
+}
+.form__tipo {
+  margin-bottom: 10px;
+}
+.form__select {
+  background-color: var(--Grey-0);
+  width: 150px;
+  height: 48px;
+
+  font-weight: 400;
+  font-size: 12px;
+}
+.form__select > option {
+  font-weight: 400;
+  font-size: 12px;
+}
+.form__btn {
+  background-color: var(--Color-primary);
+
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.form__select:active {
+  border: 2px solid var(--Grey-4);
+}

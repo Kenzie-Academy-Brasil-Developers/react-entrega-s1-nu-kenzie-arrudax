@@ -1,0 +1,53 @@
+:root {
+  --Color-primary: #fd377e;
+  --Color-primary-2: #e34981;
+  --Color-Secondary: #03b898;
+  --Grey-4: #212529;
+  --Grey-3: #868e96;
+  --Grey-2: #e9ecef;
+  --Grey-1: #f8f9fa;
+  --Grey-0: #f8f9fa;
+ 
+  --welcome-bg: #000000;
+}
+* {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+
+  width: 314px;
+  height: 48px;
+
+  padding: 13px 20px;
+
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--Color-primary-2);
+}
+
+input,
+select {
+  background-color: var(--Grey-0);
+  width: 314px;
+  height: 52.8px;
+
+  padding: 0px 16px;
+
+  border: none;
+  border-radius: 8px;
+}
+
+input:active {
+  border: 2px solid #212529;
+}

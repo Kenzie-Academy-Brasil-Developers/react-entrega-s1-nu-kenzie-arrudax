@@ -1,0 +1,17 @@
+.conteiner__HomePage {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  margin-top: -248px;
+  margin-left: -500px;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.aside__position {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}

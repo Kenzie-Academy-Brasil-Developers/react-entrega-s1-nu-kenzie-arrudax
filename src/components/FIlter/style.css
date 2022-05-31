@@ -1,0 +1,41 @@
+.filter__conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.filter__title {
+  font-weight: 700;
+  font-size: 16px;
+
+  margin-right: 113px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.filter__btn {
+  background-color: var(--Grey-2);
+  width: 87px;
+  height: 40px;
+
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.filter__btn-todos {
+  background-color: var(--Color-primary);
+
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.filter__btn-despesas {
+  margin-right: 0;
+}
+
+.filter__btn-entradas:hover,
+.filter__btn-despesas:hover {
+  background-color: var(--Grey-3);
+  color: white;
+}
